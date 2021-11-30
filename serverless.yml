@@ -36,24 +36,28 @@ functions:
       - http:
           path: /order
           method: post
+          cors: true
   getOrder:
     handler: com.serverless.GetOrderHandler
     events:
       - http:
           path: /order
           method: get
+          cors: true
   deleteOrder:
     handler: com.serverless.DeleteOrderHandler
     events:
       - http:
           path: /order/{id}
           method: delete
+          cors: true
   updateOrder:
     handler: com.serverless.UpdateOrderHandler
     events:
       - http:
           path: /order
           method: put
+          cors: true
 
 resources:
   Resources:

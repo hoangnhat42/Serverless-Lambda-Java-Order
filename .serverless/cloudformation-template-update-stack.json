@@ -255,7 +255,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/build/distributions/hello.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/build/distributions/hello.zip"
         },
         "Handler": "com.serverless.Handler",
         "Runtime": "java8",
@@ -280,7 +280,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/build/distributions/hello.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/build/distributions/hello.zip"
         },
         "Handler": "com.serverless.CreateOrderHandler",
         "Runtime": "java8",
@@ -305,7 +305,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/build/distributions/hello.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/build/distributions/hello.zip"
         },
         "Handler": "com.serverless.GetOrderHandler",
         "Runtime": "java8",
@@ -330,7 +330,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/build/distributions/hello.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/build/distributions/hello.zip"
         },
         "Handler": "com.serverless.DeleteOrderHandler",
         "Runtime": "java8",
@@ -355,7 +355,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/build/distributions/hello.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/build/distributions/hello.zip"
         },
         "Handler": "com.serverless.UpdateOrderHandler",
         "Runtime": "java8",
@@ -373,54 +373,54 @@
         "UpdateOrderLogGroup"
       ]
     },
-    "CreateOrderLambdaVersionqWN3IqJjcZuUqHxRik2RjDk5o9ShIrz11NqwiBf5II": {
+    "CreateOrderLambdaVersionwbEbIV1XvWnPxpPXflzJkdoHz2dXVq4niu9I7VoTHU": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "CreateOrderLambdaFunction"
         },
-        "CodeSha256": "NofmXu/xrUVYJ6Dl30E89yL9gDTOfXSZIZK67G/hxng="
+        "CodeSha256": "PJjXa5xvT4ziaB8+01dMjqKb5g0OtQGtL2ZLq7q7scA="
       }
     },
-    "HelloLambdaVersionco5gvHasD4GlTP4WJXwbe4qhZ9Qv81UE3qFz73i18": {
-      "Type": "AWS::Lambda::Version",
-      "DeletionPolicy": "Retain",
-      "Properties": {
-        "FunctionName": {
-          "Ref": "HelloLambdaFunction"
-        },
-        "CodeSha256": "NofmXu/xrUVYJ6Dl30E89yL9gDTOfXSZIZK67G/hxng="
-      }
-    },
-    "DeleteOrderLambdaVersionmdV3NM2d2RLZKwZllQk0mR1q4TgLTjQiFjpnwf3IU": {
+    "DeleteOrderLambdaVersionOsY5L8EZdvSKatYhhz9zOH8FfMJTFHB4cP1EdGi5RI": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "DeleteOrderLambdaFunction"
         },
-        "CodeSha256": "NofmXu/xrUVYJ6Dl30E89yL9gDTOfXSZIZK67G/hxng="
+        "CodeSha256": "PJjXa5xvT4ziaB8+01dMjqKb5g0OtQGtL2ZLq7q7scA="
       }
     },
-    "GetOrderLambdaVersion1YuYF2pyK5NY8U8WFAcyKv3rRy7v0sKMG6xtsy3OM": {
+    "GetOrderLambdaVersionqCoRdMjaaZev1GG1uEmGOoTLuuTryp40N3FBFjj6M": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "GetOrderLambdaFunction"
         },
-        "CodeSha256": "NofmXu/xrUVYJ6Dl30E89yL9gDTOfXSZIZK67G/hxng="
+        "CodeSha256": "PJjXa5xvT4ziaB8+01dMjqKb5g0OtQGtL2ZLq7q7scA="
       }
     },
-    "UpdateOrderLambdaVersionvFRz3lxd5wQZ3Pc3VP7h6H4T4TiXuS0CSwVeOZm5CFI": {
+    "HelloLambdaVersionI9YSQW6H54f9Qw0aiADoEG34OOgtwDbho75vr0bksk": {
+      "Type": "AWS::Lambda::Version",
+      "DeletionPolicy": "Retain",
+      "Properties": {
+        "FunctionName": {
+          "Ref": "HelloLambdaFunction"
+        },
+        "CodeSha256": "PJjXa5xvT4ziaB8+01dMjqKb5g0OtQGtL2ZLq7q7scA="
+      }
+    },
+    "UpdateOrderLambdaVersionioajEOvQTdhO9iYnbqK8owua1Oo4v5FixjXvLC59IE": {
       "Type": "AWS::Lambda::Version",
       "DeletionPolicy": "Retain",
       "Properties": {
         "FunctionName": {
           "Ref": "UpdateOrderLambdaFunction"
         },
-        "CodeSha256": "NofmXu/xrUVYJ6Dl30E89yL9gDTOfXSZIZK67G/hxng="
+        "CodeSha256": "PJjXa5xvT4ziaB8+01dMjqKb5g0OtQGtL2ZLq7q7scA="
       }
     },
     "ApiGatewayRestApi": {
@@ -457,6 +457,96 @@
           "Ref": "ApiGatewayResourceOrder"
         },
         "PathPart": "{id}",
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodOrderOptions": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "AuthorizationType": "NONE",
+        "HttpMethod": "OPTIONS",
+        "MethodResponses": [
+          {
+            "StatusCode": "200",
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true
+            },
+            "ResponseModels": {}
+          }
+        ],
+        "RequestParameters": {},
+        "Integration": {
+          "Type": "MOCK",
+          "RequestTemplates": {
+            "application/json": "{statusCode:200}"
+          },
+          "ContentHandling": "CONVERT_TO_TEXT",
+          "IntegrationResponses": [
+            {
+              "StatusCode": "200",
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,PUT,GET,POST'"
+              },
+              "ResponseTemplates": {
+                "application/json": ""
+              }
+            }
+          ]
+        },
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceOrder"
+        },
+        "RestApiId": {
+          "Ref": "ApiGatewayRestApi"
+        }
+      }
+    },
+    "ApiGatewayMethodOrderIdVarOptions": {
+      "Type": "AWS::ApiGateway::Method",
+      "Properties": {
+        "AuthorizationType": "NONE",
+        "HttpMethod": "OPTIONS",
+        "MethodResponses": [
+          {
+            "StatusCode": "200",
+            "ResponseParameters": {
+              "method.response.header.Access-Control-Allow-Origin": true,
+              "method.response.header.Access-Control-Allow-Headers": true,
+              "method.response.header.Access-Control-Allow-Methods": true
+            },
+            "ResponseModels": {}
+          }
+        ],
+        "RequestParameters": {},
+        "Integration": {
+          "Type": "MOCK",
+          "RequestTemplates": {
+            "application/json": "{statusCode:200}"
+          },
+          "ContentHandling": "CONVERT_TO_TEXT",
+          "IntegrationResponses": [
+            {
+              "StatusCode": "200",
+              "ResponseParameters": {
+                "method.response.header.Access-Control-Allow-Origin": "'*'",
+                "method.response.header.Access-Control-Allow-Headers": "'Content-Type,X-Amz-Date,Authorization,X-Api-Key,X-Amz-Security-Token,X-Amz-User-Agent'",
+                "method.response.header.Access-Control-Allow-Methods": "'OPTIONS,DELETE'"
+              },
+              "ResponseTemplates": {
+                "application/json": ""
+              }
+            }
+          ]
+        },
+        "ResourceId": {
+          "Ref": "ApiGatewayResourceOrderIdVar"
+        },
         "RestApiId": {
           "Ref": "ApiGatewayRestApi"
         }
@@ -646,7 +736,7 @@
         "UpdateOrderLambdaPermissionApiGateway"
       ]
     },
-    "ApiGatewayDeployment1637765696700": {
+    "ApiGatewayDeployment1638239436816": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -655,6 +745,8 @@
         "StageName": "dev"
       },
       "DependsOn": [
+        "ApiGatewayMethodOrderOptions",
+        "ApiGatewayMethodOrderIdVarOptions",
         "ApiGatewayMethodOrderPost",
         "ApiGatewayMethodOrderGet",
         "ApiGatewayMethodOrderIdVarDelete",
@@ -918,7 +1010,7 @@
           "S3Bucket": {
             "Ref": "ServerlessDeploymentBucket"
           },
-          "S3Key": "serverless/orderserivce/dev/1637765709133-2021-11-24T14:55:09.133Z/custom-resources.zip"
+          "S3Key": "serverless/orderserivce/dev/1638239444919-2021-11-30T02:30:44.919Z/custom-resources.zip"
         },
         "FunctionName": "orderserivce-dev-custom-resource-apigw-cw-role",
         "Handler": "apiGatewayCloudWatchRole/handler.handler",
@@ -1042,25 +1134,16 @@
     "CreateOrderLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "CreateOrderLambdaVersionqWN3IqJjcZuUqHxRik2RjDk5o9ShIrz11NqwiBf5II"
+        "Ref": "CreateOrderLambdaVersionwbEbIV1XvWnPxpPXflzJkdoHz2dXVq4niu9I7VoTHU"
       },
       "Export": {
         "Name": "sls-orderserivce-dev-CreateOrderLambdaFunctionQualifiedArn"
       }
     },
-    "HelloLambdaFunctionQualifiedArn": {
-      "Description": "Current Lambda function version",
-      "Value": {
-        "Ref": "HelloLambdaVersionco5gvHasD4GlTP4WJXwbe4qhZ9Qv81UE3qFz73i18"
-      },
-      "Export": {
-        "Name": "sls-orderserivce-dev-HelloLambdaFunctionQualifiedArn"
-      }
-    },
     "DeleteOrderLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "DeleteOrderLambdaVersionmdV3NM2d2RLZKwZllQk0mR1q4TgLTjQiFjpnwf3IU"
+        "Ref": "DeleteOrderLambdaVersionOsY5L8EZdvSKatYhhz9zOH8FfMJTFHB4cP1EdGi5RI"
       },
       "Export": {
         "Name": "sls-orderserivce-dev-DeleteOrderLambdaFunctionQualifiedArn"
@@ -1069,16 +1152,25 @@
     "GetOrderLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "GetOrderLambdaVersion1YuYF2pyK5NY8U8WFAcyKv3rRy7v0sKMG6xtsy3OM"
+        "Ref": "GetOrderLambdaVersionqCoRdMjaaZev1GG1uEmGOoTLuuTryp40N3FBFjj6M"
       },
       "Export": {
         "Name": "sls-orderserivce-dev-GetOrderLambdaFunctionQualifiedArn"
       }
     },
+    "HelloLambdaFunctionQualifiedArn": {
+      "Description": "Current Lambda function version",
+      "Value": {
+        "Ref": "HelloLambdaVersionI9YSQW6H54f9Qw0aiADoEG34OOgtwDbho75vr0bksk"
+      },
+      "Export": {
+        "Name": "sls-orderserivce-dev-HelloLambdaFunctionQualifiedArn"
+      }
+    },
     "UpdateOrderLambdaFunctionQualifiedArn": {
       "Description": "Current Lambda function version",
       "Value": {
-        "Ref": "UpdateOrderLambdaVersionvFRz3lxd5wQZ3Pc3VP7h6H4T4TiXuS0CSwVeOZm5CFI"
+        "Ref": "UpdateOrderLambdaVersionioajEOvQTdhO9iYnbqK8owua1Oo4v5FixjXvLC59IE"
       },
       "Export": {
         "Name": "sls-orderserivce-dev-UpdateOrderLambdaFunctionQualifiedArn"
